@@ -10,4 +10,8 @@ package mafiagame;
  */
 public class Lawyer extends Human {
     
+    public Lawyer(String name){
+        super(name);
+    }
+    
 }

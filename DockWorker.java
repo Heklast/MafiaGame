@@ -9,5 +9,9 @@ package mafiagame;
  * @author hekla
  */
 public class DockWorker extends Human{
+    public DockWorker(String name){
+        super(name);
+    }
+    
     
 }

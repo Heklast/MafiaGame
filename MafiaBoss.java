@@ -8,6 +8,10 @@ package mafiagame;
  *
  * @author hekla
  */
-public class MafiaBoss {
+public class MafiaBoss extends MafiaMember{
+    
+    public MafiaBoss(String name){
+        super(name);
+    }
     
 }

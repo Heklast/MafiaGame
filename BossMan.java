@@ -10,4 +10,8 @@ package mafiagame;
  */
 public class BossMan extends MafiaMember implements IllegalActivity {
     
+    public BossMan(String name){
+        super(name);
+    }
+    
 }

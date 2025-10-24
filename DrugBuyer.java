@@ -8,6 +8,10 @@ package mafiagame;
  *
  * @author hekla
  */
-public class DrugBuyer {
+public class DrugBuyer extends Human{
+    
+    public DrugBuyer(String name){
+        super(name);
+    }
     
 }

@@ -15,9 +15,11 @@ public class MafiaGame {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Cop cop=new Cop();
-        Human human =new Human();
-        PoliceChief policeChief=new PoliceChief();
-    }
+        Cop cop=new Cop("Haraldur");
+        Human human =new Human("Mahmhoud");
+        PoliceChief policeChief=new PoliceChief("Hekla");
+        System.out.print(cop.getName()+ human.getName()+ policeChief.getName());
+        
+    }   
     
 }

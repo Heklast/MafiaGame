@@ -8,6 +8,10 @@ package mafiagame;
  *
  * @author hekla
  */
-public class BadDetective {
+public class BadDetective extends Detective implements IllegalActivity{
+    
+    public BadDetective(String name){
+        super(name);
+    }
     
 }

@@ -8,6 +8,10 @@ package mafiagame;
  *
  * @author hekla
  */
-public class Bartender {
+public class Bartender extends Human {
+    
+    public Bartender(String name){
+        super(name);
+    }
     
 }

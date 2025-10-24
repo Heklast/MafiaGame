@@ -10,4 +10,8 @@ package mafiagame;
  */
 public class Detective extends Cop {
     
+    public Detective(String name){
+        super(name);
+    }
+    
 }

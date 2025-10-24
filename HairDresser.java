@@ -8,6 +8,10 @@ package mafiagame;
  *
  * @author hekla
  */
-public class HairDresser {
+public class HairDresser extends Human{
+    
+    public HairDresser(String name){
+        super(name);
+    }
     
 }
