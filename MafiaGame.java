@@ -4,6 +4,10 @@
  */
 package mafiagame;
 
+import mafiagame.model.Cop;
+import mafiagame.model.Human;
+import mafiagame.model.PoliceChief;
+
 /**
  *
  * @author hekla
@@ -19,7 +23,6 @@ public class MafiaGame {
         Human human =new Human("Mahmhoud");
         PoliceChief policeChief=new PoliceChief("Hekla");
         System.out.print(cop.getName()+ human.getName()+ policeChief.getName());
-        
     }   
     
 }

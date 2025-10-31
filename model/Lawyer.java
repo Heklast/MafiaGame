@@ -2,15 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mafiagame;
+package mafiagame.model;
 
 /**
  *
  * @author hekla
  */
-public class BossMan extends MafiaMember implements IllegalActivity {
+public class Lawyer extends Human {
     
-    public BossMan(String name){
+    public Lawyer(String name){
         super(name);
     }
     

@@ -2,15 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mafiagame;
+package mafiagame.model;
 
 /**
  *
  * @author hekla
  */
-public class DrugBuyer extends Human{
+public class HairDresser extends Human{
     
-    public DrugBuyer(String name){
+    public HairDresser(String name){
         super(name);
     }
     
